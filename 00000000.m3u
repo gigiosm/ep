@@ -4,6 +4,7 @@
 #EXTVLC-X-TARGETDURATION:6
 #EXTVLC-X-MEDIA-SEQUENCE:48148905
 #EXTVLC-X-MAP:URI="video_0_8100000_init.mp4?device_profile=hls_fairplay_nagra&cmaf=1"
+#EXTVLC-X-MAP:URI="video_0_8100000_init.mp4?device_profile=hls_fairplay_nagra&cmaf=1"
 #EXTVLC-X-KEY:METHOD=SAMPLE-AES,URI="skd://eyJDb250ZW50SWQiOiI1MDY2IiwiS2V5SWQiOiJlYzIyOTE1Zi02MGM4LTQzODMtOGY1My03NWFlNjVmMzAwZTMiLCJJViI6Im9uUlBjL1hwK3JvTDNDNkYwTk9taUE9PSJ9",KEYFORMAT="com.apple.streamingkeydelivery",KEYFORMATVERSIONS="1"
 #EXTVLC-X-PROGRAM-DATE-TIME:2025-02-25T22:11:20
 https://live.vtv-prod.vodafone.cz/5066/vxfmt=dp/playlist.m3u8?device_profile=HLS_AVC_FULLHD
