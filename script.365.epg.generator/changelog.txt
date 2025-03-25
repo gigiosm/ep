@@ -1,0 +1,213 @@
+v2.30.0 (06.01.2023)
+- optimalizace
+
+v2.25.1 (29.01.2023)
+O2 TV: opravena loga kanálů 
+
+v2.24.0 (21.01.2023)
+- optimalizace
+
+v2.23.0 (11.01.2023)
+- sledovanitv: přidány žánry
+- oprava chyb
+
+v2.22.0 (01.12.2022)
+- oprava chyb
+
+v2.21.0 (14.11.2022)
+- optimalizace
+
+v2.19.0 (22.10.2022)
+- opraven zdroj SledovanieTV.sk, přidány ostatní kanály 
+
+v2.18.0 (21.10.2022)
+- playlist editor: oprava chyb
+
+v2.17.1 (18.10.2022)
+- optimalizace: zastavení služby (autoaktualizace) při ukončení KODI
+
+v2.17.0 (23.09.2022)
+- ignorování chyby pokud je nějaký zdroj nedostupný, opravena chyba v dialogu
+- opraveny loga u O2
+
+v2.16.1 (11.09.2022)
+- optimalizace
+
+v2.16.0 (28.08.2022)
+- zdroj SledovaniTV.cz přidány chybějící kanály 
+
+v2.15.0 (22.08.2022)
+- oprava chyb
+
+v2.14.0 (03.08.2022)
+- zdroj můjTVprogram přidán kanál Canal+ Sport (tvg-id="1040-canal+sport")
+
+v2.13.0 (14.07.2022)
+- opravena chyba u O2TV Sport kanálů
+
+v2.12.0 (10.06.2022)
+- nový zdroj OTT Play a vybrané kanály (Penthouse Gold, Penthouse Quickies, Vivid Red, Super Tennis)
+
+v2.11.0 (06.06.2022)
+- zdroj můjTVprogram - přidány vybrané německé kanály (většinou český popis pořadu)
+
+v2.10.0 (05.06.2022)
+- nový zdroj TV Spiel (pouze vybrané německé a rakouské sportovní kanály)
+
+v2.9.0 (03.06.2022)
+- přidán zdroj Magio GO
+- nově Playlist editor (úprava m3u souboru, kdy je možné přiřadit ke kanálu tvg-id dle daného zdroje EPG Generatoru
+
+v2.8.3 (21.05.2022)
+- oprava Nova +1
+
+v2.8.2 (20.05.2022)
+- automatický časový posun
+
+v2.8.1 (06.05.2022)
+- zdroj O2 TV Sport přidány kanály O2 Sport, O2 Fotbal, O2 Tenis
+
+v2.7.2 (30.04.2022)
+T-Mobile - opravená chyba (změna názvu kanálu "Trojka" na ":24")
+
+[B]v2.7.0 (09.04.2022)[/B]
+- přidán zdroj SledovanieTV.sk (pouze kanály, které nejsou v SledovaniTV.cz)
+
+[B]v2.6.0 (10.03.2022)[/B]
+- přidán zdroj SledovaniTV.cz
+
+[B]v2.5.1 (05.02.2022)[/B]
+- opravená loga u kanálů Eurosport 3, 4, 5
+
+[B]v2.5.0 (05.02.2022)[/B]
+- nové zdoj Eurosport pro kanály Eurosport 3, 4, 5 (z O2 TV)
+
+[B]v2.4.6 (17.12.2021)[/B]
+- zdroj T-Mobile: přidány další informace o pořadu (rok, žánr, náhled, režisér, herci)
+
+[B]v2.4.5 (09.12.2021)[/B]
+- zdroj T-Mobile:  opraveny Šlagr kanály (změny názvu)
+
+[B]v2.4.0 (23.07.2021)[/B]
+- přidán zdroj můjTVprogram.cz (Skylink 7, Stingray Classica, Stingray iConcerts, Stingray CMusic)
+- drobné opravy
+
+[B]v2.3.1 (18.07.2021)[/B]
+- oprava chyby při vypnutém upozornění
+
+[B]v2.3.0 (05.07.2021)[/B]
+- změna výběru kategorií na Zdroje/Vlastní seznam
+- zdroje:
+    TV.SMS.cz
+    T-Mobile TV GO
+    O2 TV Sport
+
+[B]v2.2.0 (18.06.2021)[/B]
+- přidány všechny T-Mobile TV GO kanály
+
+[B]v2.1.3 (05.06.2021)[/B]
+- kanál Nova +1 opraven časový posun
+
+[B]v2.1.2 (29.03.2021)[/B]
+- oprava chyb
+
+[B]v2.1.1 (27.03.2021)[/B]
+- opraveny tvg-id o2 kanálů
+
+[B]v2.1.0 (27.03.2021)[/B]
+- přidány O2 Sport kanály (1 - 8)
+
+[B]v2.0.2 (13.03.2021)[/B]
+- oprava chyb
+
+[B]v2.0.1 (04.03.2021)[/B]
+- loga kanálů: oprava url adresy
+
+[B]v2.0.0 (19.02.2021)[/B]
+- nově použito api TM TV Go pro kanály BBC Earth, Digi Sport 6 - 9
+- nastavení vlastních kanálů rozděleno do kategorií
+- editor vlastních názvů kanálů v EPG
+- optimalizace kódu
+
+[B]v1.5.3 (10.12.2020)[/B]
+- fix dialogu průběhu generování
+
+[B]v1.5.2 (10.12.2020)[/B]
+- možnost zobrazit průběh generování
+- seznam tvg-id kanálu (nastavení - pokročilé)
+
+[B]v1.5.1[/B]
+- opraveno parsování
+
+[B]v1.5.0[/B]
+- opraveno parsování kanálu BBC Earth
+
+[B]v1.4.10[/B]
+- optimalizace
+
+[B]v1.4.9[/B]
+- možnost nastavit časový posun EPG
+
+[B]v1.4.8[/B]
+- EPG na 7 dní zpětně
+
+[B]v1.4.7[/B]
+- EPG na 15 dní dopředu
+
+[B]v1.4.6[/B]
+- volba spuštění kanálu (TV/radio) po restartu PVR klienta
+
+[B]v1.4.4[/B]
+- vyřešen problém s ukončením Kodi
+- oprava chyb
+
+[B]v1.4.3[/B]
+- aktualizace po startu Kodi - Restart PVR IPTV Simple Client (volitelně)
+
+[B]v1.4.2[/B]
+- oprava chyb
+
+[B]v1.4.1[/B]
+- přidán TV program pro rádia
+
+[B]v1.4.0[/B]
+- diakritika v tvg-id (volitelně)
+- vlastní názvy kanálů v EPG
+- optimalizace
+
+[B]v1.3.8[/B]
+- optimalizace, oprava chyb
+
+[B]v1.3.7[/B]
+- možnost uložení souboru na síťové úložiště
+
+[B]v1.3.6[/B]
+- sloučení kanálů ČT:D a ČT Art
+
+[B]v1.3.5[/B]
+- odstranění diakritiky v channel id
+
+[B]v1.3.3[/B]
+- Možnost vypnout upozornění při automatické aktualizaci
+
+[B]v1.3.2[/B]
+- Drobné opravy
+
+[B]v1.3.1[/B]
+- Drobné opravy
+
+[B]v1.3.0[/B]
+- Přidán kanál BBC Earth
+
+[B]v1.2.1[/B]
+- Možnost vložit loga kanálů (volitelně)
+
+[B]v1.2.0[/B]
+- Možnost přidat vlastní kanály
+
+[B]v1.1.0[/B]
+- Opraveno řazení programů
+- Přidáno spuštění po startu a automatická aktualizace v zadaný čas
+
+[B]v1.0.0[/B]
+- První vydání

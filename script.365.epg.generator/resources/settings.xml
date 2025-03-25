@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+    <category label="Generator">
+        <setting label="Název souboru" type="text" id="file_name" default="epg.xml"/>
+        <setting label="Složka pro uložení" type="folder" id="folder" default =""/>
+        <setting label="Počet dní" type="slider" id="num_days" default="2" range="1,1,15" option="int" />
+        <setting label="Počet dní zpětně" type="slider" id="num_days_back" default="1" range="0,1,7" option="int" />
+        <setting type="sep"/>
+        <setting label="Výběr kanálů" id="category" type="enum" values="Zdroje|Vlastní seznam" default="0"/>
+        <setting id="sms" type="bool" label="TV.SMS.cz" default="true" visible="eq(-1,0)"/>
+        <setting id="t-m" type="bool" label="T-Mobile TV GO" default="true" visible="eq(-2,0)"/>
+        <setting id="mag" type="bool" label="Magio GO" default="true" visible="eq(-3,0)"/>
+        <setting id="o2tv" type="bool" label="O2 TV Sport" default="true" visible="eq(-4,0)"/>
+        <setting id="mujtv" type="bool" label="můjTVprogram.cz" default="true" visible="eq(-5,0)"/>
+        <setting id="es" type="bool" label="Eurosport" default="true" visible="eq(-6,0)"/>
+        <setting id="stv" type="bool" label="SledovaniTV.cz" default="true" visible="eq(-7,0)"/>
+        <setting id="stvsk" type="bool" label="SledovanieTV.sk" default="true" visible="eq(-8,0)"/>
+        <setting id="tvspiel" type="bool" label="TV Spiel" default="true" visible="eq(-9,0)"/>
+        <setting id="ottplay" type="bool" label="OTT Play" default="true" visible="eq(-10,0)"/>
+    </category>
+    <category label="Vlastní seznam">
+        <setting type="lsep" label="TV.SMS.cz" />
+        <setting label="České" type="action" action="RunScript(special://home/addons/script.365.epg.generator/resources/lib/custom.py, České)" />
+        <setting label="Slovenské" type="action" action="RunScript(special://home/addons/script.365.epg.generator/resources/lib/custom.py, Slovenské)" />
+        <setting label="Polské" type="action" action="RunScript(special://home/addons/script.365.epg.generator/resources/lib/custom.py, Polské)" />
+        <setting label="Německé" type="action" action="RunScript(special://home/addons/script.365.epg.generator/resources/lib/custom.py, Německé)" />
+        <setting label="Anglické" type="action" action="RunScript(special://home/addons/script.365.epg.generator/resources/lib/custom.py, Anglické)" />
+        <setting label="Francouzské" type="action" action="RunScript(special://home/addons/script.365.epg.generator/resources/lib/custom.py, Francouzské)" />
+        <setting label="Maďarské" type="action" action="RunScript(special://home/addons/script.365.epg.generator/resources/lib/custom.py, Maďarské)" />
+        <setting label="Ruské" type="action" action="RunScript(special://home/addons/script.365.epg.generator/resources/lib/custom.py, Ruské)" />
+        <setting label="Španělské" type="action" action="RunScript(special://home/addons/script.365.epg.generator/resources/lib/custom.py, Španělské)" />
+        <setting label="Italské" type="action" action="RunScript(special://home/addons/script.365.epg.generator/resources/lib/custom.py, Italské)" />
+        <setting label="Ostatní" type="action" action="RunScript(special://home/addons/script.365.epg.generator/resources/lib/custom.py, Ostatní)" />
+        <setting type="lsep" label="T-Mobile TV GO" />
+        <setting label="Všechny" type="action" action="RunScript(special://home/addons/script.365.epg.generator/resources/lib/custom.py, T-Mobile TV GO)" />
+        <setting type="lsep" label="Magio GO" />
+        <setting label="Všechny" type="action" action="RunScript(special://home/addons/script.365.epg.generator/resources/lib/custom.py, Magio GO)" />
+        <setting type="lsep" label="O2 TV" />
+        <setting label="O2 sport" type="action" action="RunScript(special://home/addons/script.365.epg.generator/resources/lib/custom.py, O2 TV Sport)" />
+        <setting type="lsep" label="můjTVprogram.cz" />
+        <setting label="Vybrané" type="action" action="RunScript(special://home/addons/script.365.epg.generator/resources/lib/custom.py, můjTVprogram.cz)" />
+        <setting type="lsep" label="Eurosport" />
+        <setting label="Sport" type="action" action="RunScript(special://home/addons/script.365.epg.generator/resources/lib/custom.py, Eurosport)" />
+        <setting type="lsep" label="SledovaniTV.cz" />
+        <setting label="Všechny" type="action" action="RunScript(special://home/addons/script.365.epg.generator/resources/lib/custom.py, SledovaniTV.cz)" />
+        <setting type="lsep" label="SledovanieTV.sk" />
+        <setting label="Všechny" type="action" action="RunScript(special://home/addons/script.365.epg.generator/resources/lib/custom.py, SledovanieTV.sk)" />
+        <setting type="lsep" label="TV Spiel" />
+        <setting label="Vybrané" type="action" action="RunScript(special://home/addons/script.365.epg.generator/resources/lib/custom.py, TV Spiel)" />
+        <setting type="lsep" label="OTT Play" />
+        <setting label="Vybrané" type="action" action="RunScript(special://home/addons/script.365.epg.generator/resources/lib/custom.py, OTT Play)" />
+        <setting type="sep"/>
+        <setting label="[COLOR blue]Obnovit[/COLOR]" type="action" action="RunScript(special://home/addons/script.365.epg.generator/resources/lib/reset.py)" />
+    </category>
+    <category label="Aktualizace">
+        <setting id="start_enabled" type="bool" label="Aktualizovat po startu" default="false" />
+        <setting id="restart_pvr" type="bool" label="Restart PVR IPTV Simple Client" default="false" visible="eq(-1,true)" />
+        <setting id="play_pvr" type="bool" label="Spustit poslední kanál" default="false" visible="eq(-2,true) + eq(-1,true)" />
+        <setting label="Kanál" id="pvr_type" type="enum" values="TV|Radio" default="0" visible="eq(-3,true) + eq(-2,true) + eq(-1,true)"/>
+        <setting type="sep"/>
+        <setting id="auto_enabled" type="bool" label="Aktualizovat automaticky" default="false" />
+        <setting label="Čas aktualizace" id="auto_time" type="time" default="01:00" visible="eq(-1,true)" />
+        <setting label="Interval" id="interval" type="enum" values="1 den|3 dny|6 dní" default="0" visible="eq(-2,true)" />
+        <setting label="Spustit" type="action" option="close" action="RunScript(special://home/addons/script.365.epg.generator/service.py)" visible="eq(-3,true)"/>
+        <setting type="sep"/>
+        <setting id="notice" type="bool" label="Upozornění" default="true" />
+        <setting id="dialog" type="bool" label="Zobrazit průběh generování" default="true" visible="eq(-1,true)" />
+    </category>
+    <category label="Další funkce">
+        <setting id="diacritics" type="bool" label="Diakritika v tvg-id" default="false" />
+        <setting id="custom_names" type="bool" label="Vlastní názvy kanálů v EPG" default="false" />
+        <setting label="Upravit" type="action" action="RunScript(special://home/addons/script.365.epg.generator/resources/lib/names.py)" visible="eq(-1,true)" />
+        <setting type="sep"/>
+        <setting id="tvg-id" type="action" label="Seznam tvg-id kanálů" option="close" action="RunScript(special://home/addons/script.365.epg.generator/resources/lib/channels_id.py)" />
+        <setting type="sep"/>
+        <setting id="pls" type="action" label="Playlist editor (tvg-id)" option="close" action="RunScript(special://home/addons/script.365.epg.generator/resources/lib/playlist.py)" />
+    </category>
+    <category label="Donate">
+        <setting id="paypal" type="action" label="PayPal" option="close" action="RunScript(special://home/addons/script.365.epg.generator/resources/lib/donate.py)" />
+    </category>
+</settings>
